@@ -71,7 +71,7 @@ export default function Hero() {
           </Button>
           <a
             href="#prices"
-            className="flex items-center rounded-none h-16 px-10 font-display font-bold uppercase tracking-widest text-lg border-2 hover:bg-white/5 transition-all"
+            className="flex items-center justify-center rounded-none h-16 px-10 font-display font-bold uppercase tracking-widest text-lg border-2 hover:bg-white/5 transition-all"
             data-testid="button-hero-tour"
           >
             Ver Planos

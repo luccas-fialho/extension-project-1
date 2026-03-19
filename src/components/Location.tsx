@@ -1,5 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 export default function Location() {
   return (
@@ -22,9 +21,9 @@ export default function Location() {
                     Onde Estamos
                   </h4>
                   <p className="text-muted-foreground">
-                    Av. dos Ferreiros, 123.
+                    Av. Benjamin Possebon, 369 - Quissisana
                     <br />
-                    Distrito Industrial, São Paulo - SP
+                    São José dos Pinhais - PR, 83085-190
                   </p>
                 </div>
               </div>
@@ -39,9 +38,6 @@ export default function Location() {
                   </h4>
                   <p className="text-muted-foreground">
                     Todos os dias: 06:00 - 22:00
-                    <br />
-                    Atendimento Recepção: Seg-Sex 08:00 - 20:00, Sáb 09:00 -
-                    17:00
                   </p>
                 </div>
               </div>
@@ -55,7 +51,7 @@ export default function Location() {
                     Fala com a Gente
                   </h4>
                   <p className="text-muted-foreground">
-                    (11) 99999-9999
+                    (41) 98886-0680
                     <br />
                     treino@lightfitness.com.br
                   </p>
@@ -63,34 +59,27 @@ export default function Location() {
               </div>
             </div>
 
-            <Button
-              size="lg"
-              className="rounded-none font-display font-bold uppercase tracking-widest bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto"
+            <a
+              href="https://maps.google.com/?cid=16996957898424327532&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAEYASAB&hl=pt-BR&gl=BR&source=embed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center rounded-none font-display font-bold uppercase tracking-widest bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-auto p-2"
               data-testid="button-directions"
             >
               Abrir no GPS
-            </Button>
+            </a>
           </div>
 
           {/* Map Side (Placeholder) */}
           <div className="relative min-h-100 lg:min-h-full bg-secondary overflow-hidden group border-t lg:border-t-0 lg:border-l border-border">
-            {/* Brutalist map placeholder pattern */}
-            <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-foreground to-transparent bg-size-[20px_20px]" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-              <div className="w-24 h-24 rounded-full bg-background border border-border flex items-center justify-center mb-6 group-hover:scale-110 group-hover:border-primary transition-all duration-500">
-                <MapPin className="w-10 h-10 text-primary" />
-              </div>
-              <h3 className="font-display font-black text-2xl uppercase tracking-widest text-foreground/50 mb-2">
-                Localização no Mapa
-              </h3>
-              <p className="text-muted-foreground max-w-xs text-sm">
-                O mapa interativo será carregado aqui.
-              </p>
-            </div>
-
-            {/* Crosshairs for aesthetic */}
-            <div className="absolute top-1/2 left-0 w-full h-px bg-border/50" />
-            <div className="absolute left-1/2 top-0 w-px h-full bg-border/50" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4280.796365151382!2d-49.152608137051956!3d-25.548157746444968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf7a389af2a35%3A0xebe15327a5da1d6c!2sAcademia%20Light%20Fitness%20-%20Avenida%20Benjamin%20Possebon%20-%20Quissisana%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Pinhais%20-%20State%20of%20Paran%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1773958771156!5m2!1spt-BR!2sbr"
+              className="w-full h-full min-h-100"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>

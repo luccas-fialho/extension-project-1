@@ -93,13 +93,13 @@ export default function History() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6 border-t border-border">
+            <div className="grid grid-cols-1 text-center sm:grid-cols-3 gap-6 pt-6 border-t border-border">
               <div>
                 <div className="text-4xl font-display font-black text-primary">
-                  5k+
+                  100%
                 </div>
                 <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mt-1">
-                  Alunos Transformados
+                  Foco no resultado
                 </div>
               </div>
               <div>
@@ -112,10 +112,10 @@ export default function History() {
               </div>
               <div>
                 <div className="text-4xl font-display font-black text-primary">
-                  10k
+                  Zero
                 </div>
                 <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mt-1">
-                  M² de Área de Treino
+                  Enrolação no treino
                 </div>
               </div>
             </div>

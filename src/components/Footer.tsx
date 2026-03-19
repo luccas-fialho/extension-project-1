@@ -79,7 +79,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
         <div className="pt-8 border-t border-border/50 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
             &copy; {new Date().getFullYear()} Light Fitness. Todos os direitos
@@ -88,6 +87,17 @@ export default function Footer() {
           <div className="font-mono text-xs text-muted-foreground/50 uppercase tracking-widest">
             COMPROMISSO COM A SUA SAÚDE
           </div>
+        </div>
+        <div className="font-mono text-xs text-muted-foreground/50 uppercase tracking-widest text-center">
+          Feito com ❤️ por{" "}
+          <a
+            href="https://linkedin.com/in/luccas-fialho"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-primary hover:underline transition-colors"
+          >
+            LUCCAS FIALHO
+          </a>
         </div>
       </div>
     </footer>
