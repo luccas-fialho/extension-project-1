@@ -87,6 +87,10 @@
 
 /* Custom Utilities for the gym vibe */
 @layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .text-stroke {
     -webkit-text-stroke: 1px hsl(var(--foreground));
     color: transparent;

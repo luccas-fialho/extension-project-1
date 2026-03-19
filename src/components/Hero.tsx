@@ -69,14 +69,13 @@ export default function Hero() {
             Começar Agora
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="rounded-none h-16 px-10 font-display font-bold uppercase tracking-widest text-lg border-2 hover:bg-white/5 transition-all"
+          <a
+            href="#prices"
+            className="flex items-center rounded-none h-16 px-10 font-display font-bold uppercase tracking-widest text-lg border-2 hover:bg-white/5 transition-all"
             data-testid="button-hero-tour"
           >
             Ver Planos
-          </Button>
+          </a>
         </motion.div>
       </div>
     </section>
