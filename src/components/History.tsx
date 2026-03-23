@@ -76,20 +76,22 @@ export default function History() {
 
             <div className="space-y-4 text-muted-foreground text-lg">
               <p>
-                A Light Fitness nasceu em 2015 com um propósito claro: criar um
-                espaço focado no treinamento de qualidade, acessível a todos e
-                com uma atmosfera acolhedora.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatem et, deleniti officia expedita veritatis hic adipisci.
+                Autem saepe omnis, rem dolore fuga nemo tempora? Sapiente velit
+                atque ut libero dolore.
               </p>
               <p>
-                Nossa missão sempre foi oferecer uma alternativa mais pessoal às
-                grandes redes comerciais. Construímos um ambiente onde pessoas
-                de todos os níveis podem treinar com dedicação, acompanhamento
-                profissional e respeito, sem se preocuparem com julgamentos.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus, minus molestias? Quas, esse, animi reprehenderit
+                officia quibusdam dicta et dolore ipsum quidem architecto
+                voluptas deserunt natus nisi commodi perferendis porro.
               </p>
               <p className="font-semibold text-foreground border-l-4 border-primary pl-4 py-2">
-                Hoje, somos a principal academia da região, mas nossa essência
-                de comunidade e compromisso com o resultado dos nossos alunos
-                permanece a mesma.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
+                ad natus velit soluta, animi quaerat aliquid voluptatem rem
+                eligendi dolor, blanditiis quasi, ipsa provident architecto
+                voluptas placeat aut laborum quibusdam?
               </p>
             </div>
 

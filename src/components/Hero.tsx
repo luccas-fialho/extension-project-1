@@ -50,9 +50,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 font-medium"
         >
-          A principal academia do seu bairro. Um ambiente acolhedor e
-          profissional, totalmente focado na qualidade do seu treino e na sua
-          evolução constante.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quae
+          sapiente nostrum obcaecati similique eos quia dolor quas deleniti?
         </motion.p>
 
         <motion.div

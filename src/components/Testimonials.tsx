@@ -4,21 +4,21 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "A melhor academia da região. Ambiente super agradável, professores atenciosos e equipamentos sempre em ótimo estado. Me sinto muito bem treinando aqui!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
     author: "Juliana M.",
-    role: "Aluna há 1 ano",
+    role: "há 1 ano",
   },
   {
     quote:
-      "A estrutura é fantástica e a equipe de instrutores é excelente. Eles montaram um treino específico para mim e os resultados já são visíveis em poucos meses.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
     author: "Ricardo T.",
-    role: "Aluno há 3 meses",
+    role: "há 3 meses",
   },
   {
     quote:
-      "O que mais gosto é a flexibilidade de horário e o clima respeitoso. Ninguém fica te julgando, é um espaço focado em saúde e bem-estar de verdade.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
     author: "Carlos P.",
-    role: "Aluno há 5 anos",
+    role: "há 5 anos",
   },
 ];
 

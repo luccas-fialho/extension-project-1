@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <Dumbbell className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
+          {/* <Dumbbell className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" /> */}
           <span className="font-display font-black text-2xl tracking-tighter uppercase">
             Light<span className="text-primary">Fitness</span>
           </span>
