@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Dumbbell } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
+import { getWhatsappNavbarLink } from "@/lib/utils";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,12 +52,15 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <Button
-            className="rounded-none font-display font-bold uppercase tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 border-2 border-primary hover:border-primary/90 transition-all"
+          <a
+            href={getWhatsappNavbarLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-none font-display font-bold uppercase tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 border-2 border-primary hover:border-primary/90 transition-all"
             data-testid="button-nav-join"
           >
             Matricule-se
-          </Button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -87,12 +90,15 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button
-            className="w-full rounded-none font-display font-bold uppercase tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 mt-4"
+          <a
+            href={getWhatsappNavbarLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 w-full rounded-none font-display font-bold uppercase tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 mt-4"
             data-testid="button-mobile-join"
           >
             Matricule-se
-          </Button>
+          </a>
         </div>
       )}
     </nav>

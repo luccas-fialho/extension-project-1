@@ -76,22 +76,23 @@ export default function History() {
 
             <div className="space-y-4 text-muted-foreground text-lg">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatem et, deleniti officia expedita veritatis hic adipisci.
-                Autem saepe omnis, rem dolore fuga nemo tempora? Sapiente velit
-                atque ut libero dolore.
+                A nossa academia nasceu com um propósito simples: criar um
+                ambiente onde qualquer pessoa pudesse evoluir de verdade, com
+                estrutura de qualidade e acompanhamento próximo. Desde o início,
+                o foco sempre foi entregar resultado, sem complicação e sem
+                promessas vazias.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Delectus, minus molestias? Quas, esse, animi reprehenderit
-                officia quibusdam dicta et dolore ipsum quidem architecto
-                voluptas deserunt natus nisi commodi perferendis porro.
+                Aqui, cada treino é levado a sério. Contamos com equipamentos
+                modernos, profissionais capacitados e uma comunidade que motiva
+                você a ir além todos os dias. Seja para ganhar massa, emagrecer
+                ou melhorar a qualidade de vida, você encontra o suporte certo
+                para alcançar seus objetivos.
               </p>
               <p className="font-semibold text-foreground border-l-4 border-primary pl-4 py-2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-                ad natus velit soluta, animi quaerat aliquid voluptatem rem
-                eligendi dolor, blanditiis quasi, ipsa provident architecto
-                voluptas placeat aut laborum quibusdam?
+                Mais do que uma academia, somos um espaço de transformação —
+                onde disciplina, constância e atitude se transformam em
+                resultados reais.
               </p>
             </div>
 
@@ -109,7 +110,7 @@ export default function History() {
                   6h-22h
                 </div>
                 <div className="text-xs font-bold uppercase tracking-wider text-muted-foreground mt-1">
-                  Horário de Funcionamento
+                  Horário de Funcionamento (Segunda à Sexta)
                 </div>
               </div>
               <div>

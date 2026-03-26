@@ -37,8 +37,10 @@ export default function Location() {
                     Horário de Funcionamento
                   </h4>
                   <p className="text-muted-foreground">
-                    Todos os dias: 06:00 - 22:00
+                    Segunda à sexta: 06:00 - 22:00
                   </p>
+                  <p className="text-muted-foreground">Sábado: 09:00 - 13:00</p>
+                  <p className="text-muted-foreground">Domingo: Fechado</p>
                 </div>
               </div>
 

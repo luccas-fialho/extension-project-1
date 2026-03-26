@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Check, Plus } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { getWhatsAppLink } from "@/lib/utils";
 
 const recurringPlans = [
   {
@@ -117,8 +117,11 @@ export default function Prices() {
                 ))}
               </ul>
 
-              <Button
-                className={`w-full rounded-none font-display font-bold uppercase tracking-wider h-14 ${
+              <a
+                href={getWhatsAppLink(plan.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center justify-center w-full rounded-none font-display font-bold uppercase tracking-wider h-14 ${
                   plan.highlighted
                     ? "bg-primary text-primary-foreground hover:bg-primary/90"
                     : "bg-secondary text-secondary-foreground hover:bg-secondary/80 border border-border"
@@ -126,7 +129,7 @@ export default function Prices() {
                 data-testid={`button-plan-${plan.name.toLowerCase()}`}
               >
                 Assinar {plan.name}
-              </Button>
+              </a>
             </motion.div>
           ))}
         </div>

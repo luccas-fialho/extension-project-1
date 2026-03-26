@@ -1,24 +1,23 @@
 import { motion } from "framer-motion";
-import { Quote } from "lucide-react";
+import { Quote, Star } from "lucide-react";
 
 const testimonials = [
   {
+    quote: "Ótimo lugar para treinar, profissionais excelentes 👏👏👏",
+    author: "Lucas O.",
+    role: "há 1 mês",
+  },
+  {
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
-    author: "Juliana M.",
+      "Academia organizada e com instrutores extremamente atenciosos, estão de parabéns!",
+    author: "Mayara D.",
+    role: "há 7 meses",
+  },
+  {
+    quote:
+      "Melhor academia da região equipamentos ótimos e os instrutores são muito gente boa recomendo ☺️🙌",
+    author: "Larissa C.",
     role: "há 1 ano",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
-    author: "Ricardo T.",
-    role: "há 3 meses",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident mollitia aut perspiciatis asperiores illum dolor architecto voluptates tempora obcaecati nisi",
-    author: "Carlos P.",
-    role: "há 5 anos",
   },
 ];
 
@@ -68,6 +67,12 @@ export default function Testimonials() {
                   <p className="text-xs text-primary tracking-wider uppercase font-semibold">
                     {t.role}
                   </p>
+                  {/* ⭐ Estrelas */}
+                  <div className="flex gap-1 mt-1">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star key={i} size={14} fill="#ABFF2E" color="#ABFF2E" />
+                    ))}
+                  </div>
                 </div>
               </div>
 

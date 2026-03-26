@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/images/hero-gym.jpg";
+import { getWhatsappNavbarLink } from "@/lib/utils";
 
 export default function Hero() {
   return (
@@ -48,10 +48,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
-          className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 font-medium"
+          className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 font-medium"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quae
-          sapiente nostrum obcaecati similique eos quia dolor quas deleniti?
+          Treinos personalizados, equipamentos de qualidade e um ambiente focado
+          em evolução. Aqui você treina de verdade e conquista resultados reais.
         </motion.p>
 
         <motion.div
@@ -60,14 +60,16 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.6, ease: "easeOut" }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <Button
-            size="lg"
-            className="rounded-none h-16 px-10 font-display font-black uppercase tracking-widest text-lg bg-primary hover:bg-primary/90 text-primary-foreground border-2 border-primary hover:border-primary/90 transition-all group"
+          <a
+            href={getWhatsappNavbarLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center rounded-none h-16 px-10 font-display font-black uppercase tracking-widest text-lg bg-primary hover:bg-primary/90 text-primary-foreground border-2 border-primary hover:border-primary/90 transition-all group"
             data-testid="button-hero-start"
           >
             Começar Agora
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
+          </a>
           <a
             href="#prices"
             className="flex items-center justify-center rounded-none h-16 px-10 font-display font-bold uppercase tracking-widest text-lg border-2 hover:bg-white/5 transition-all"

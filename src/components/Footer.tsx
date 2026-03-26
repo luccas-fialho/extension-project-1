@@ -1,4 +1,4 @@
-import { Dumbbell, Instagram, Facebook, Twitter } from "lucide-react";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,7 +7,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           <div className="space-y-6 lg:col-span-2">
             <a href="#" className="flex items-center gap-2 group w-max">
-              <Dumbbell className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" />
               <span className="font-display font-black text-2xl tracking-tighter uppercase">
                 Light<span className="text-primary">Fitness</span>
               </span>
@@ -19,22 +18,20 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/academia.lightfitness/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               >
-                <Instagram className="w-5 h-5" />
+                <FaInstagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://wa.me/5541992475613"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
               >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
+                <FaWhatsapp className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -88,8 +85,8 @@ export default function Footer() {
             COMPROMISSO COM A SUA SAÚDE
           </div>
         </div>
-        <div className="font-mono text-xs text-muted-foreground/50 uppercase tracking-widest text-center">
-          Feito com ❤️ por{" "}
+        <div className="py-2 font-mono text-[8px] md:text-xs text-muted-foreground/50 uppercase tracking-widest text-center">
+          Desenvolvido por{" "}
           <a
             href="https://linkedin.com/in/luccas-fialho"
             target="_blank"
