@@ -1,3 +1,4 @@
+import getRelativeTime from "@/lib/getRelativeTime";
 import { motion } from "framer-motion";
 import { Quote, Star } from "lucide-react";
 
@@ -5,19 +6,19 @@ const testimonials = [
   {
     quote: "Ótimo lugar para treinar, profissionais excelentes 👏👏👏",
     author: "Lucas O.",
-    role: "há 1 mês",
+    date: "2026-02-01",
   },
   {
     quote:
       "Academia organizada e com instrutores extremamente atenciosos, estão de parabéns!",
     author: "Mayara D.",
-    role: "há 7 meses",
+    date: "2025-08-10",
   },
   {
     quote:
       "Melhor academia da região equipamentos ótimos e os instrutores são muito gente boa recomendo ☺️🙌",
     author: "Larissa C.",
-    role: "há 1 ano",
+    date: "2025-02-12",
   },
 ];
 
@@ -65,7 +66,7 @@ export default function Testimonials() {
                     {t.author}
                   </h4>
                   <p className="text-xs text-primary tracking-wider uppercase font-semibold">
-                    {t.role}
+                    {getRelativeTime(t.date)}
                   </p>
                   {/* ⭐ Estrelas */}
                   <div className="flex gap-1 mt-1">
