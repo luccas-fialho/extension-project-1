@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const phone = "41992475613";
+const phone = import.meta.env.VITE_PHONE_NUMBER;
 
 export function getWhatsAppLink(planName: string) {
   const message = `Olá! Tudo bem? Vi o plano ${planName} no site e gostei bastante. Tenho interesse em me matricular, pode me orientar nos próximos passos?`;
