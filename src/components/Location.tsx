@@ -55,7 +55,7 @@ export default function Location() {
                   <p className="text-muted-foreground">
                     (41) 98886-0680
                     <br />
-                    treino@lightfitness.com.br
+                    academialightfitness@hotmail.com
                   </p>
                 </div>
               </div>

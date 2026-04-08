@@ -1,3 +1,4 @@
+import { getWhatsappNavbarLink } from "@/lib/utils";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
@@ -26,7 +27,7 @@ export default function Footer() {
                 <FaInstagram className="w-5 h-5" />
               </a>
               <a
-                href="https://wa.me/5541992475613"
+                href={getWhatsappNavbarLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"

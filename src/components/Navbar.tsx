@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { getWhatsappNavbarLink } from "@/lib/utils";
+import logo from "@/assets/images/logo-image.png"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,11 +32,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          {/* <Dumbbell className="w-8 h-8 text-primary group-hover:rotate-12 transition-transform" /> */}
-          <span className="font-display font-black text-2xl tracking-tighter uppercase">
-            Light<span className="text-primary">Fitness</span>
-          </span>
+        <a href="/" className="flex items-center gap-2 group"> 
+          <img src={logo} alt="logo" className="w-50 "/>
         </a>
 
         {/* Desktop Links */}
